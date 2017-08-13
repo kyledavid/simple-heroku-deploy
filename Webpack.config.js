@@ -5,7 +5,7 @@ module.exports = {
   output: {
     path: __dirname,
     publicPath: '/',
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   module: {
     loaders: [{
@@ -16,8 +16,5 @@ module.exports = {
         presets: ['es2015', 'react']
       }
     }]
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
   }
 };
